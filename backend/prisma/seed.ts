@@ -17,7 +17,7 @@ async function main() {
       firstName: "admin",
       lastName: "admin",
       phone: "+213550000001",
-      role: "ADMIN",
+      role: "ADMIN" as UserRole,
     },
   });
 
